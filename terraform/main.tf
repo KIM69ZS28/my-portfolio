@@ -1,5 +1,6 @@
 provider "aws" {
     region = "ap-northeast-1"
+    profile = "terraform-role"
 }
 
 resource "aws_vpc" "pf_vpc" {
